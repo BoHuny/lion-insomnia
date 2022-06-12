@@ -1,0 +1,35 @@
+_id: req_2fb03b07fe3044adb8074a9427dc3aff
+type: Request
+parentId: fld_2fefcf36c6fa42e396d8d6bd8bf13641
+modified: 1655069233656
+created: 1654616830592
+url: http://localhost:80/api/users/addPost
+name: Add Post
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"senderLogin":"login_user_1",
+    	"content":"exemple post"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9bb7ef04dc894702bc914caf8d77cf55
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: admin
+  password: admin
+metaSortKey: -1654534354094.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

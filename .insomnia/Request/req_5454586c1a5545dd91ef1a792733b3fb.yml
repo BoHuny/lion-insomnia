@@ -1,0 +1,36 @@
+_id: req_5454586c1a5545dd91ef1a792733b3fb
+type: Request
+parentId: fld_2fefcf36c6fa42e396d8d6bd8bf13641
+modified: 1655069119618
+created: 1654534335283
+url: http://34.79.237.67:80/api/users/sendMessage
+name: Send message
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"senderLogin":"login_user_1",
+    	"receiverLogin":"login_user_2",
+    	"content":"coucou"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_dda59c1854ae471d94108a993ccac77f
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: admin
+  password: admin
+metaSortKey: -1654534354219.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

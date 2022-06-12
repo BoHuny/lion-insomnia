@@ -1,0 +1,35 @@
+_id: req_b29316e5cbd549968b2c58f1c217cc19
+type: Request
+parentId: fld_2fefcf36c6fa42e396d8d6bd8bf13641
+modified: 1655068918452
+created: 1654533588363
+url: http://34.79.237.67:80/api/users/getChat
+name: Get chat
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"login1":"login_user_1",
+    	"login2":"login_user_2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b3184fd7fe1f47d0ab7a9f096d1998ab
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: admin
+  password: admin
+metaSortKey: -1654534354294.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

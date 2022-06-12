@@ -1,0 +1,26 @@
+_id: req_10e7fc1bca1e471d958096879006e15d
+type: Request
+parentId: fld_2fefcf36c6fa42e396d8d6bd8bf13641
+modified: 1654617146941
+created: 1654116292880
+url: http://34.79.237.67:80/api/users/get
+name: Get all users
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: admin
+  password: admin
+metaSortKey: -1654534354144.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

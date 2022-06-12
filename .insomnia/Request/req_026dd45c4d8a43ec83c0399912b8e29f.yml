@@ -1,0 +1,35 @@
+_id: req_026dd45c4d8a43ec83c0399912b8e29f
+type: Request
+parentId: fld_b7d63d1684e8478b85aa166a38627df7
+modified: 1655070404159
+created: 1654534697234
+url: http://34.79.237.67:80/api/friends/add
+name: Add friend
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"login1":"login_user_1",
+    	"login2":"login_user_2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0687421363764204aff578498d9c63ef
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: admin
+  password: admin
+metaSortKey: -1654534697234
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

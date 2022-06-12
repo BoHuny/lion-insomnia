@@ -1,0 +1,34 @@
+_id: req_be8410975a9548c58baad0a959305332
+type: Request
+parentId: fld_b7d63d1684e8478b85aa166a38627df7
+modified: 1655068894194
+created: 1654534604188
+url: http://34.79.237.67:80/api/friends/get
+name: Get friends
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"login":"login_user_1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6971425f0150479ebd010a4a82afd2b8
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: admin
+  password: admin
+metaSortKey: -1654534604188
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
