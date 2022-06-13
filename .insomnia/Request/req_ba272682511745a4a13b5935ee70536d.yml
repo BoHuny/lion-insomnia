@@ -1,0 +1,26 @@
+_id: req_ba272682511745a4a13b5935ee70536d
+type: Request
+parentId: fld_69cfb21161be4212a4ffb6a22cbc3b79
+modified: 1655153254956
+created: 1655152525842
+url: http://34.79.237.67:80/health/hbase
+name: Hbase health check
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: admin
+  password: admin
+metaSortKey: -1655152525842
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

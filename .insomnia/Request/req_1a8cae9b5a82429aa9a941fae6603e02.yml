@@ -1,0 +1,21 @@
+_id: req_1a8cae9b5a82429aa9a941fae6603e02
+type: Request
+parentId: fld_69cfb21161be4212a4ffb6a22cbc3b79
+modified: 1655152528859
+created: 1655152158305
+url: http://34.79.237.67:80/health/neo4j
+name: Neo4j health check
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1655152158305
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
