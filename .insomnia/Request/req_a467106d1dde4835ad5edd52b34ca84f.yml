@@ -1,32 +1,30 @@
-_id: req_5454586c1a5545dd91ef1a792733b3fb
+_id: req_a467106d1dde4835ad5edd52b34ca84f
 type: Request
-parentId: fld_53d8c3b7a2794464aae3e731a0fd754c
-modified: 1655210717161
-created: 1654534335283
-url: http://34.79.237.67:80/api/users/sendMessage
-name: Send message
+parentId: fld_b86af27845414a6aaf143ddd715891e1
+modified: 1655210690894
+created: 1655187125893
+url: localhost/api/users/getPhoto
+name: Get photo
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
   text: |-
     {
-    	"senderLogin":"login_user_1",
-    	"receiverLogin":"login_user_2",
-    	"content":"coucou"
+    	"login":"login_user_1"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_dda59c1854ae471d94108a993ccac77f
+    id: pair_6268bd47dfdd4830b5a3d7238f8b9bea
 authentication:
   type: basic
   useISO88591: false
   disabled: false
   username: admin
   password: admin
-metaSortKey: -1655210711782
+metaSortKey: -1655210685440
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

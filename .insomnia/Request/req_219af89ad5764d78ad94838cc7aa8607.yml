@@ -1,7 +1,7 @@
 _id: req_219af89ad5764d78ad94838cc7aa8607
 type: Request
-parentId: fld_2fefcf36c6fa42e396d8d6bd8bf13641
-modified: 1655071511825
+parentId: fld_5ada76cd6651436b9bcb92f38529bd14
+modified: 1655211221530
 created: 1654965132321
 url: http://34.79.237.67:80/api/users/getEvents
 name: Get events
@@ -24,7 +24,7 @@ authentication:
   disabled: false
   username: admin
   password: admin
-metaSortKey: -1654534354269.6875
+metaSortKey: -1655211219490
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

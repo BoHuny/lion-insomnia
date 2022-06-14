@@ -1,0 +1,45 @@
+_id: req_9c18312cce3248f19a47bf8929884c16
+type: Request
+parentId: fld_b86af27845414a6aaf143ddd715891e1
+modified: 1655210687919
+created: 1655186061787
+url: localhost/api/users/setPhoto
+name: Set photo
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_9eec8a562bc04f68a8c0cd6dc11b85c9
+      name: image
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\benja\OneDrive\Images\maitai.jpg
+    - id: pair_6645c3a485d44784be219e3f6bd4683e
+      name: login
+      value: login_user_1
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_4e42bc3fe39140ae8f8fd6796a46f2f1
+  - id: pair_d1326487f94948a9a1ed29ccdce2971b
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: admin
+  password: admin
+metaSortKey: -1655210685465
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

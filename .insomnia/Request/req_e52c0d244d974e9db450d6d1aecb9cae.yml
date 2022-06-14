@@ -1,7 +1,7 @@
 _id: req_e52c0d244d974e9db450d6d1aecb9cae
 type: Request
-parentId: fld_2fefcf36c6fa42e396d8d6bd8bf13641
-modified: 1655068970218
+parentId: fld_e7be4e4de2604c12bf517221747d9793
+modified: 1655211010757
 created: 1654116353816
 url: http://34.79.237.67:80/api/users/getByLogin
 name: Get user by login
@@ -24,7 +24,7 @@ authentication:
   disabled: false
   username: admin
   password: admin
-metaSortKey: -1654534354244.6875
+metaSortKey: -1655210740574
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
