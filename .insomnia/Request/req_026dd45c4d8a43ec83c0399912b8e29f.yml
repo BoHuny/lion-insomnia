@@ -1,9 +1,9 @@
 _id: req_026dd45c4d8a43ec83c0399912b8e29f
 type: Request
 parentId: fld_b7d63d1684e8478b85aa166a38627df7
-modified: 1655211273429
+modified: 1655212351598
 created: 1654534697234
-url: http://34.79.237.67:80/api/friends/add
+url: "{{ _.protocol }}{{ _.ip }}{{ _.friends_api }}/add"
 name: Add friend
 description: ""
 method: GET

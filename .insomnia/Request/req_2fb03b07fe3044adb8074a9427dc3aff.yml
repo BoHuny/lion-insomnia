@@ -1,9 +1,9 @@
 _id: req_2fb03b07fe3044adb8074a9427dc3aff
 type: Request
 parentId: fld_ff90f5360b9743ddbb0ac35ee3316168
-modified: 1655211204037
+modified: 1655212259508
 created: 1654616830592
-url: http://localhost:80/api/users/addPost
+url: "{{ _.protocol }}{{ _.ip }}{{ _.users_api }}/addPost"
 name: Add Post
 description: ""
 method: POST

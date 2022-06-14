@@ -1,9 +1,9 @@
 _id: req_10e7fc1bca1e471d958096879006e15d
 type: Request
 parentId: fld_e7be4e4de2604c12bf517221747d9793
-modified: 1655211019584
+modified: 1655212236839
 created: 1654116292880
-url: http://34.79.237.67:80/api/users/get
+url: "{{ _.protocol }}{{ _.ip }}{{ _.users_api }}/get"
 name: Get all users
 description: ""
 method: GET

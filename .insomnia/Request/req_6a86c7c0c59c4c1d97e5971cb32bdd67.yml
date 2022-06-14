@@ -1,9 +1,9 @@
 _id: req_6a86c7c0c59c4c1d97e5971cb32bdd67
 type: Request
 parentId: fld_ff90f5360b9743ddbb0ac35ee3316168
-modified: 1655211201473
+modified: 1655212263366
 created: 1654616919629
-url: http://localhost:80/api/users/getAllPost
+url: "{{ _.protocol }}{{ _.ip }}{{ _.users_api }}/getAllPost"
 name: Get All Post
 description: ""
 method: GET

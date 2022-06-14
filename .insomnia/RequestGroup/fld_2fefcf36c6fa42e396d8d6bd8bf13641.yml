@@ -1,10 +1,13 @@
 _id: fld_2fefcf36c6fa42e396d8d6bd8bf13641
 type: RequestGroup
 parentId: wrk_9514c242444341e1a183ae022ba8fe8b
-modified: 1654534401515
+modified: 1655212383397
 created: 1654534401515
 name: users
 description: ""
-environment: {}
-environmentPropertyOrder: null
+environment:
+  users_api: /api/users
+environmentPropertyOrder:
+  "&":
+    - users_api
 metaSortKey: -1654534401515

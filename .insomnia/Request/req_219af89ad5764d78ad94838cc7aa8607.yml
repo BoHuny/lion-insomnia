@@ -1,9 +1,9 @@
 _id: req_219af89ad5764d78ad94838cc7aa8607
 type: Request
 parentId: fld_5ada76cd6651436b9bcb92f38529bd14
-modified: 1655211221530
+modified: 1655212270237
 created: 1654965132321
-url: http://34.79.237.67:80/api/users/getEvents
+url: "{{ _.protocol }}{{ _.ip }}{{ _.users_api }}/getEvents"
 name: Get events
 description: ""
 method: GET

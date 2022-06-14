@@ -1,9 +1,9 @@
 _id: req_5454586c1a5545dd91ef1a792733b3fb
 type: Request
 parentId: fld_53d8c3b7a2794464aae3e731a0fd754c
-modified: 1655210717161
+modified: 1655212544428
 created: 1654534335283
-url: http://34.79.237.67:80/api/users/sendMessage
+url: "{{ _.protocol }}{{ _.ip }}{{ _.users_api }}/sendMessage"
 name: Send message
 description: ""
 method: POST

@@ -1,9 +1,9 @@
 _id: req_ba272682511745a4a13b5935ee70536d
 type: Request
 parentId: fld_69cfb21161be4212a4ffb6a22cbc3b79
-modified: 1655153254956
+modified: 1655212144041
 created: 1655152525842
-url: http://34.79.237.67:80/health/hbase
+url: "{{ _.protocol }}{{ _.ip }}{{ _.health_api }}/hbase"
 name: Hbase health check
 description: ""
 method: GET

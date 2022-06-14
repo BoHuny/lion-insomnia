@@ -1,0 +1,14 @@
+_id: env_cf0d12a912e346a19967a4707d325800
+type: Environment
+parentId: env_705ed6ec048c5eb3aca22839db1ec8bd30c8432a
+modified: 1655212392774
+created: 1655211882622
+name: Production
+data:
+  ip: 34.79.237.67
+dataPropertyOrder:
+  "&":
+    - ip
+color: null
+isPrivate: false
+metaSortKey: 1655211882622

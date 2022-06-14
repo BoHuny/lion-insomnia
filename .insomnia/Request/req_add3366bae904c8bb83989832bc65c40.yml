@@ -1,9 +1,9 @@
 _id: req_add3366bae904c8bb83989832bc65c40
 type: Request
 parentId: fld_53d8c3b7a2794464aae3e731a0fd754c
-modified: 1655211016127
+modified: 1655212251709
 created: 1654533643590
-url: http://34.79.237.67:80/api/users/getUnreadMessages
+url: "{{ _.protocol }}{{ _.ip }}{{ _.users_api }}/getUnreadMessages"
 name: Get unread messages
 description: ""
 method: GET

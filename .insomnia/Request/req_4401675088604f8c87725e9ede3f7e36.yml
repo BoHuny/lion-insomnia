@@ -1,9 +1,9 @@
 _id: req_4401675088604f8c87725e9ede3f7e36
 type: Request
 parentId: fld_69cfb21161be4212a4ffb6a22cbc3b79
-modified: 1655210153113
+modified: 1655212105794
 created: 1655152111075
-url: http://34.79.237.67:80/health/mongo
+url: "{{ _.protocol }}{{ _.ip }}{{ _.health_api }}/mongo"
 name: Mongo health check
 description: ""
 method: GET

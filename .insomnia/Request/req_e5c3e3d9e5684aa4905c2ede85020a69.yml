@@ -1,9 +1,9 @@
 _id: req_e5c3e3d9e5684aa4905c2ede85020a69
 type: Request
 parentId: fld_e7be4e4de2604c12bf517221747d9793
-modified: 1655210742215
+modified: 1655212229837
 created: 1654116328627
-url: http://34.79.237.67:80/api/users/getLimit
+url: "{{ _.protocol }}{{ _.ip }}{{ _.users_api }}/getLimit"
 name: Get 30 first users
 description: ""
 method: GET

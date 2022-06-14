@@ -1,9 +1,9 @@
 _id: req_a467106d1dde4835ad5edd52b34ca84f
 type: Request
 parentId: fld_b86af27845414a6aaf143ddd715891e1
-modified: 1655210690894
+modified: 1655212542165
 created: 1655187125893
-url: localhost/api/users/getPhoto
+url: "{{ _.protocol }}{{ _.ip }}{{ _.users_api }}/getPhoto"
 name: Get photo
 description: ""
 method: GET
