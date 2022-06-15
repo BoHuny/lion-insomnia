@@ -1,7 +1,7 @@
 _id: req_be8410975a9548c58baad0a959305332
 type: Request
 parentId: fld_b7d63d1684e8478b85aa166a38627df7
-modified: 1655212349242
+modified: 1655212942485
 created: 1654534604188
 url: "{{ _.protocol }}{{ _.ip }}{{ _.friends_api }}/get"
 name: Get friends
