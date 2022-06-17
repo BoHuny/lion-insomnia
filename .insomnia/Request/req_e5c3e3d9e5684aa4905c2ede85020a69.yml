@@ -1,15 +1,24 @@
 _id: req_e5c3e3d9e5684aa4905c2ede85020a69
 type: Request
 parentId: fld_e7be4e4de2604c12bf517221747d9793
-modified: 1655212229837
+modified: 1655489164418
 created: 1654116328627
 url: "{{ _.protocol }}{{ _.ip }}{{ _.users_api }}/getLimit"
 name: Get 30 first users
 description: ""
 method: GET
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"page": "0",
+        "size": "30"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d766e83c7ad04d73873f0a5712b2c12e
 authentication:
   type: basic
   useISO88591: false
