@@ -1,11 +1,22 @@
 _id: req_e5c3e3d9e5684aa4905c2ede85020a69
 type: Request
 parentId: fld_e7be4e4de2604c12bf517221747d9793
-modified: 1655489164418
+modified: 1655585878903
 created: 1654116328627
 url: "{{ _.protocol }}{{ _.ip }}{{ _.users_api }}/getLimit"
-name: Get 30 first users
-description: ""
+name: Get users with pagination
+description: >
+  Calls the findAll method in MongoRepository and returns the JSON of the users
+  of page number "page" of size "size" taking a body from the HTTP request in
+  JSON format:
+
+
+  Example:
+
+  {
+      "page": "0",
+      "size": "30"
+  }
 method: GET
 body:
   mimeType: application/json

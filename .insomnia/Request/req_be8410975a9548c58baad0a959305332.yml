@@ -1,11 +1,18 @@
 _id: req_be8410975a9548c58baad0a959305332
 type: Request
 parentId: fld_b7d63d1684e8478b85aa166a38627df7
-modified: 1655212942485
+modified: 1655585858115
 created: 1654534604188
 url: "{{ _.protocol }}{{ _.ip }}{{ _.friends_api }}/get"
 name: Get friends
-description: ""
+description: |
+  Returns the friends of the user in the query body:
+
+  The query body is in this form:
+
+  {
+  	"login1":"login_user_1"
+  }
 method: GET
 body:
   mimeType: application/json

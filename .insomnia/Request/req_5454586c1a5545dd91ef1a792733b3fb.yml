@@ -1,11 +1,23 @@
 _id: req_5454586c1a5545dd91ef1a792733b3fb
 type: Request
 parentId: fld_53d8c3b7a2794464aae3e731a0fd754c
-modified: 1655329076465
+modified: 1655585691009
 created: 1654534335283
 url: "{{ _.protocol }}{{ _.ip }}{{ _.users_api }}/sendMessage"
 name: Send message
-description: ""
+description: >-
+  Adds the message object to the list of "messages" of the user stored on
+  MongoDB.
+
+
+  The query body is in this form:
+
+
+  {
+  	"senderLogin":"login_user_1",
+  	"receiverLogin":"login_user_2",
+  	"content":"coucou"
+  }
 method: POST
 body:
   mimeType: application/json

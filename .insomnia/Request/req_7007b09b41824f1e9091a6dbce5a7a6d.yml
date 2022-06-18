@@ -1,11 +1,18 @@
 _id: req_7007b09b41824f1e9091a6dbce5a7a6d
 type: Request
 parentId: fld_e7be4e4de2604c12bf517221747d9793
-modified: 1655489057976
+modified: 1655585876250
 created: 1654534519284
 url: "{{ _.protocol }}{{ _.ip }}{{ _.users_api }}/getByDescription"
 name: Get user by description
-description: ""
+description: >
+  Calls the findByDescription method in MongoRepository and returns the JSON of
+  the user whose description is passed to the HTTP request body in JSON format:
+
+
+  {
+  	"description": "description_user_1"
+  }
 method: GET
 body:
   mimeType: application/json

@@ -1,11 +1,22 @@
 _id: req_b4eda0b95cc54a1c903b96b0ce26a524
 type: Request
 parentId: fld_b7d63d1684e8478b85aa166a38627df7
-modified: 1655379363287
+modified: 1655585863089
 created: 1654534656059
 url: "{{ _.protocol }}{{ _.ip }}{{ _.friends_api }}/areFriends"
 name: Are users friends
-description: ""
+description: >
+  Returns true if there is a link in Neo4j between the users in the query body,
+  otherwise false.
+
+
+  The query body is in this form:
+
+
+  {
+  	"login1":"login_user_1",
+  	"login2":"login_user_2"
+  }
 method: GET
 body:
   mimeType: application/json

@@ -1,11 +1,19 @@
 _id: req_b29316e5cbd549968b2c58f1c217cc19
 type: Request
 parentId: fld_53d8c3b7a2794464aae3e731a0fd754c
-modified: 1655212849461
+modified: 1655585749413
 created: 1654533588363
 url: "{{ _.protocol }}{{ _.ip }}{{ _.users_api }}/getChat"
 name: Get chat
-description: ""
+description: |
+  Returns all the messages in a chat including the users in query body.
+
+  The query body is in this form:
+
+  {
+  	"login1":"login_user_1",
+  	"login2":"login_user_2"
+  }
 method: GET
 body:
   mimeType: application/json

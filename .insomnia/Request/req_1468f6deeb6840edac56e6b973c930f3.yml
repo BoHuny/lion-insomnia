@@ -1,11 +1,19 @@
 _id: req_1468f6deeb6840edac56e6b973c930f3
 type: Request
 parentId: fld_ff90f5360b9743ddbb0ac35ee3316168
-modified: 1655379354232
+modified: 1655585871368
 created: 1654616941783
 url: "{{ _.protocol }}{{ _.ip }}{{ _.users_api }}/getActu"
 name: Get actualite
-description: ""
+description: >
+  Returns the posts of all the user friends in chronological order from the most
+  recent post to the oldest.Takes the user login passed to the body of the query
+  in JSON format:
+
+
+  {
+  	"login":"login_user_1"
+  }
 method: GET
 body:
   mimeType: application/json

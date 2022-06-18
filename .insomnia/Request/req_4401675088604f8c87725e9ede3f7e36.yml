@@ -1,11 +1,11 @@
 _id: req_4401675088604f8c87725e9ede3f7e36
 type: Request
 parentId: fld_69cfb21161be4212a4ffb6a22cbc3b79
-modified: 1655212105794
+modified: 1655582609253
 created: 1655152111075
 url: "{{ _.protocol }}{{ _.ip }}{{ _.health_api }}/mongo"
 name: Mongo health check
-description: ""
+description: Returns UP if the DB is running and DOWN otherwise.
 method: GET
 body: {}
 parameters: []

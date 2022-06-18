@@ -1,11 +1,11 @@
 _id: req_a467106d1dde4835ad5edd52b34ca84f
 type: Request
 parentId: fld_b86af27845414a6aaf143ddd715891e1
-modified: 1655213478081
+modified: 1655585674278
 created: 1655187125893
 url: "{{ _.protocol }}{{ _.ip }}{{ _.users_api }}/getPhoto"
 name: Get photo
-description: ""
+description: Returns the photo of the user whose login is passed in query body.
 method: GET
 body:
   mimeType: application/json

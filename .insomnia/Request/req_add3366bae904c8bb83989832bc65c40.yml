@@ -1,11 +1,21 @@
 _id: req_add3366bae904c8bb83989832bc65c40
 type: Request
 parentId: fld_53d8c3b7a2794464aae3e731a0fd754c
-modified: 1655329107209
+modified: 1655585743252
 created: 1654533643590
 url: "{{ _.protocol }}{{ _.ip }}{{ _.users_api }}/getUnreadMessages"
 name: Get unread messages
-description: ""
+description: >
+  Returns all the unread messages received by the user whose login is passed to
+  the query body in JSON format, the messages disapear after the first read.
+
+
+  The query body is in this form:
+
+
+  {
+  	"login":"login_user_1"
+  }
 method: GET
 body:
   mimeType: application/json

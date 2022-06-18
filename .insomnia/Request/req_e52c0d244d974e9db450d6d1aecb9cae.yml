@@ -1,11 +1,20 @@
 _id: req_e52c0d244d974e9db450d6d1aecb9cae
 type: Request
 parentId: fld_e7be4e4de2604c12bf517221747d9793
-modified: 1655488935474
+modified: 1655585874851
 created: 1654116353816
 url: "{{ _.protocol }}{{ _.ip }}{{ _.users_api }}/getByLogin"
 name: Get user by login
-description: ""
+description: >
+  Calls the findByLogin method in MongoRepository and returns the user whose
+  login is passed to the request body in JSON format:
+
+
+  {
+
+  "login": "login_user1"
+
+  }
 method: GET
 body:
   mimeType: application/json
@@ -24,7 +33,7 @@ authentication:
   disabled: false
   username: admin
   password: admin
-metaSortKey: -1655210740574
+metaSortKey: -1655210740599
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,11 +1,19 @@
 _id: req_026dd45c4d8a43ec83c0399912b8e29f
 type: Request
 parentId: fld_b7d63d1684e8478b85aa166a38627df7
-modified: 1655379361997
+modified: 1655585866215
 created: 1654534697234
 url: "{{ _.protocol }}{{ _.ip }}{{ _.friends_api }}/add"
 name: Add friend
-description: ""
+description: |
+  Adds the friendship link between the users in the query body, in Neo4j.
+
+  The query body is in this form:
+
+  {
+  	"login1":"login_user_1",
+  	"login2":"login_user_2"
+  }
 method: GET
 body:
   mimeType: application/json

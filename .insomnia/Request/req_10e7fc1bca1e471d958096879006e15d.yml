@@ -1,11 +1,11 @@
 _id: req_10e7fc1bca1e471d958096879006e15d
 type: Request
 parentId: fld_e7be4e4de2604c12bf517221747d9793
-modified: 1655212236839
+modified: 1655582899408
 created: 1654116292880
 url: "{{ _.protocol }}{{ _.ip }}{{ _.users_api }}/get"
 name: Get all users
-description: ""
+description: Calls the findAll method in MongoRepository and returns the JSON of the users
 method: GET
 body: {}
 parameters: []

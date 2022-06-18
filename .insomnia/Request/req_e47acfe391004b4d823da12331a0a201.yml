@@ -1,11 +1,19 @@
 _id: req_e47acfe391004b4d823da12331a0a201
 type: Request
 parentId: fld_b7d63d1684e8478b85aa166a38627df7
-modified: 1655379364407
+modified: 1655585860362
 created: 1654534751854
 url: "{{ _.protocol }}{{ _.ip }}{{ _.friends_api }}/remove"
 name: Remove friend
-description: ""
+description: |
+  Removes the friendship link between the users in the query body, in Neo4j.
+
+  The query body is in this form:
+
+  {
+  	"login1":"login_user_1",
+  	"login2":"login_user_2"
+  }
 method: GET
 body:
   mimeType: application/json

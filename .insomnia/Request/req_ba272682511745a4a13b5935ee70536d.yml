@@ -1,11 +1,11 @@
 _id: req_ba272682511745a4a13b5935ee70536d
 type: Request
 parentId: fld_69cfb21161be4212a4ffb6a22cbc3b79
-modified: 1655212144041
+modified: 1655582597212
 created: 1655152525842
 url: "{{ _.protocol }}{{ _.ip }}{{ _.health_api }}/hbase"
 name: Hbase health check
-description: ""
+description: Returns UP if the DB is running and DOWN otherwise.
 method: GET
 body: {}
 parameters: []

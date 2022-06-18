@@ -1,11 +1,19 @@
 _id: req_2fb03b07fe3044adb8074a9427dc3aff
 type: Request
 parentId: fld_ff90f5360b9743ddbb0ac35ee3316168
-modified: 1655379342447
+modified: 1655585766099
 created: 1654616830592
 url: "{{ _.protocol }}{{ _.ip }}{{ _.users_api }}/addPost"
 name: Add post
-description: ""
+description: |
+  Adds the post object to the list of "posts" of the user stored on MongoDB.
+
+  The query body is in this form:
+
+  {
+  	"senderLogin": "login_user_1",
+  	"content": "example post"
+  }
 method: POST
 body:
   mimeType: application/json
